@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KHADIR Younes</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="KHADIR Younes" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">KHADIR Younes</h1>
+
+          <p class="title">Computer Science Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:khadir.younes.2003@gmail.com" class="contact-link">khadir.younes.2003@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+213669329325" class="contact-link">0669 32 93 25</a>
+              <a href="tel:+213552322365" class="contact-link">0552 32 23 65</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-10-07">07 Octobre 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Belgaid, Oran, Algeria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://web.facebook.com/younes.khadir.90813" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/younes-khadir" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/khadir.younes13/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Background</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m <b>Khadir younes</b>, a Computer Science graduate from Oran, specializing in <b>Artificial Intelligence and Applications.</b> I enjoy solving problems through technology—whether it’s building intelligent systems, developing web and mobile applications, or designing efficient software solutions.
+          </p>
+
+          <p>
+            
+            My background combines a strong academic foundation in algorithms, machine learning, and data-driven applications with hands-on experience in protocol coordination, teaching, and project work. I thrive on challenges that require both technical expertise and creative problem-solving.
+          </p>
+          <p>My aim is to create solutions that are not only functional and efficient, but also intuitive and impactful, bringing real value to people and organizations.</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for Android.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Teaching</h4>
+
+                <p class="service-item-text">
+                  Clear and engaging instruction to help learners improve skills and confidence.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Exploration</h4>
+
+                <p class="service-item-text">
+                  Discovering new places, Hiking, cultures, and perspectives, one snapshot at a time.
+                </p>
+              </div>
+              </li>
+              
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Achievements / Certificates</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title 
+    style="text-align:center; margin-left:5px;">Diplome Licence</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <div class="cv-desktop" style="display:block;">
+                    <img src="./assets/images/lic.png" alt="Licence Certificate" style="margin-left: 51px ;width:70%; height:auto;">
+                  </div>
+                  
+                  <p style="margin-top:1px; text-align:center;">
+                    <a href="./assets/images/Diplome licence.pdf" download
+                       style="display:inline-block; padding:5px 104px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+                      View
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title 
+    style="text-align:center; margin-left:5px;">IELTS</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <div class="cv-desktop" style="display:block;">
+                    <img src="./assets/images/ielts.jpg" alt="ielts" style="margin-left: 51px ;width:70%; height:auto;">
+                  </div>
+                  
+                  <p style="margin-top:1px; text-align:center;">
+                    <a href="./assets/images/ielts.pdf" download
+                       style="display:inline-block; padding:5px 104px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+                      View
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title 
+    style="text-align:center; margin-left:5px;">Recommendation letter</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <div class="cv-desktop" style="display:block;">
+                    <img src="./assets/images/reco.png" alt="Recommendation letter" style="margin-left: 51px ;width:70%; height:auto;">
+                  </div>
+                  
+                  <p style="margin-top:1px; text-align:center;">
+                    <a href="./assets/images/Recommendation letter Younes.pdf" download
+                       style="display:inline-block; padding:5px 104px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+                      View
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title 
+    style="text-align:center; margin-left:5px;">mediterranean games</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <div class="cv-desktop" style="display:block;">
+                    <img src="./assets/images/JM.png" alt="JM" style="margin-left: 51px ;width:70%; height:auto;">
+                  </div>
+                  
+                  <p style="margin-top:1px; text-align:center;">
+                    <a href="./assets/images/JM.pdf" download
+                       style="display:inline-block; padding:5px 104px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+                      View
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title 
+    style="text-align:center; margin-left:5px;">First Aid</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <div class="cv-desktop" style="display:block;">
+                    <img src="./assets/images/1staid.png" alt="first aid" style="margin-left: 51px ;width:70%; height:auto;">
+                  </div>
+                  
+                  <p style="margin-top:1px; text-align:center;">
+                    <a href="./assets/images/First Aid.pdf" download
+                       style="display:inline-block; padding:5px 104px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+                      View
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Professional Network</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.univ-usto.dz/en/" target="_blank">
+                <img src="./assets/images/logo-7-color.png" style="height:110px; width:auto;" alt="USTO">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://cijm.org.gr/" target="_blank">
+                <img style="height:100px; width:auto;" src="./assets/images/International_Committee_of_Mediterranean_Games_blue_on_white.svg-removebg-preview.png" alt="CIJM">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.cafonline.com/caf-african-nations-championship/" target="_blank"> 
+                <img style="height:120px; width:auto;" src="./assets/images/African_Nations_Championship_2009.png" alt="CHAN">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.instagram.com/golden_sbm/?hl=en" target="_blank">
+                <img src="./assets/images/images-removebg-preview.png" alt="GoldenSBM"style="height:120px; width:auto;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://web.facebook.com/americancorneroran/?_rdc=1&_rdr#" target="_blank">
+                <img style="height:120px; width:auto;" src="./assets/images/ACO.png" alt="ACO">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #background
+      -->
+
+      <article class="background" data-page="background">
+
+        <header>
+          <h2 class="h2 article-title">Work & Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master’s Degree in Computer Science – Artificial Intelligence and
+                Applications (IAA)</h4>
+              <span style="font-style: italic; color: white;">
+                University Of Science And Technology Of Oran
+              </span>
+              
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Specialized in machine learning, data analysis, NLP, computer vision, and intelligent systems, with strong foundations in algorithms, modeling, and applied AI solutions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor’s Degree in Computer Science</h4>
+              <span style="font-style: italic; color: white;">
+                University Of Science And Technology Of Oran
+              </span>
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                Studied core computer science topics including algorithms, data structures, databases, operating systems, software engineering, networks, and AI foundations, with strong grounding in mathematics and programming.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Baccalaureate in Technical Mathematics – Civil Engineering</h4>
+              <span style="font-style: italic; color: white;">
+                Lycee mohamed Tammar
+              </span>
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Strong foundation in mathematics, physics, and technical sciences, with emphasis on problem-solving and applied engineering concepts.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Baccalaureate in Natural and Life Sciences</h4>
+              <span style="font-style: italic; color: white;">
+                Independent Candidate
+              </span>
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Built strong foundations in biology, chemistry, physics, and mathematics, with emphasis on scientific reasoning and analytical skills.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Protocol</h4>
+              <span style="font-style: italic; color: white;">
+                Organization Committee of the Mediterranean Games
+              </span>
+
+              <span>10/2020 – 07/2022</span>
+
+              <p class="timeline-text">
+              •Coordinated a team of 50 volunteers and conducted training for the medal ceremonies. <br>
+              •Welcomed and assisted V-VIPs of CIJM at the Méridien Hotel.<br>
+              •Translation services (English–Arabic).<br>
+              •Participated in protocol activities during several international events.<br>
+              •Supervised the arrival and departure of more than 5,000 athletes and referees.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Protocol</h4>
+              <span style="font-style: italic; color: white;">
+                African Nations Championship (CHAN)
+              </span>
+
+              <span>12/2022 – 02/2023</span>
+
+              <p class="timeline-text">
+              •Welcomed and guided V-VIPs across multiple venues (Méridien Hotel, AZ Hotel, Rodina Hotel, Sports Complex). <br>
+              •English–Arabic translation for international delegations<br>
+              •Worked alongside FAC protocol officer, Ms. Leilah Nankya<br>
+              (recommendation letter available upon request).<br>
+              •Coordinated VIP lounge services for several V-VIPs<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">English Teacher</h4>
+              <span style="font-style: italic; color: white;">
+                American Corner Oran
+              </span>
+
+              <span>09/2023 – 01/2024</span>
+
+              <p class="timeline-text">
+              •Taught English courses for all levels (beginner to advanced). <br>
+              •Prepared and delivered lessons to improve grammar, vocabulary, and speaking skills<br>
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sales Promote</h4>
+              <span style="font-style: italic; color: white;">
+                GoldenSBM
+              </span>
+
+              <span>08/2024 – 10/2024</span>
+
+              <p class="timeline-text">
+              •Presented and promoted products to customers <br>
+              •Managed sales booths and conducted demonstrations<br>
+              •Developed communication and sales persuasion skills<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mobile Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software Engineering & Application Design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming: Java, C++, Python, JavaScript,
+                  PHP, HTML/CSS...</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #cv
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+            </button>
+
+        
+          </div>
+          <!-- English CV -->
+    <h3 style="color:#FFDB70; text-align:center; margin-bottom:10px;">English CV</h3>
+    <div class="cv-desktop" style="display:block;">
+      <embed src="./assets/images/CV_en.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
+
+    <!-- Image preview (mobile only) -->
+    <div class="cv-mobile" style="display:none; text-align:center;">
+      <img src="./assets/images/CV_en_preview.jpg" alt="English CV Preview" style="width:100%; max-width:500px; border:1px solid #444;">
+    </div>
+    <p style="margin-top:15px; text-align:center;">
+      <a href="./assets/images/CV_en.pdf" download
+         style="padding:10px 20px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+        Download CV (English)
+      </a>
+    </p>
+
+    <hr style="margin:40px 0; border:0; border-top:1px solid #444;">
+
+    <!-- French CV -->
+    <h3 style="color:#FFDB70; text-align:center; margin-bottom:10px;">French CV</h3>
+    <!-- PDF embed (desktop only) -->
+    <div class="cv-desktop" style="display:block;">
+      <embed src="./assets/images/CV_fr.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
+
+    <!-- Image preview (mobile only) -->
+    <div class="cv-mobile" style="display:none; text-align:center;">
+      <img src="./assets/images/CV_fr_preview.jpg" alt="French CV Preview" style="width:100%; max-width:500px; border:1px solid #444;">
+    </div>
+    <p style="margin-top:15px; text-align:center;">
+      <a href="./assets/images/CV_fr.pdf" download
+         style="padding:10px 20px; background:#FFDB70; color:#fff; text-decoration:none; border-radius:5px;">
+        Télécharger CV (Français)
+      </a>
+      </p>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/picture.png" alt="Web Application for Appointment Management in a Dental Clinic" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Bachelor’s Thesis Project</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Web Application for Appointment Management in a Dental Clinic</h3>
+                  <p class="blog-text">
+                    co-developed with BIBI Chiraz
+                  </p>
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/picture2.png" alt="Dentist’s Administrative Dashboard" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Bachelor’s Thesis Project</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Dentist’s Administrative Dashboard</h3>
+                  <p class="blog-text">
+                    co-developed with BIBI Chiraz
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25905.409584882906!2d-0.5545524073888277!3d35.746473775210426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e7cbe82c1cd0d%3A0xf6187e4fbc6ace43!2sBelgaid%2C%20Bir%20El%20Djir!5e0!3m2!1sen!2sdz!4v1758725089169!5m2!1sen!2sdz"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section>
+
+          <h3 class="h3">Contact Me</h3>
+          <br>
+          <p style="color:white; font-size:16px;">
+            <strong style="color:#FFDB70;">Email:</strong>
+            <a href="mailto:khadir.younes.2003@gmail.com" style="color:white; text-decoration:none;">
+              khadir.younes.2003@gmail.com
+            </a>
+          </p>
+          <br>
+          <p style="color:white; font-size:16px;">
+            <strong style="color:#FFDB70;">Phone:</strong>
+            <a href="tel:+213669329325" style="color:white; text-decoration:none;">
+              +213 669 32 93 25
+            </a>
+            <a href="tel:+213552322365" style="color:white; text-decoration:none;">
+              +213 552 32 23 65
+            </a>
+          </p>
+          <br>
+          <p style="color:white; font-size:16px;">
+            <strong style="color:#FFDB70;">linkedin:</strong>
+            <a href="https://www.linkedin.com/in/younes-khadir" target="_blank" style="color:white; text-decoration:none;">
+              www.linkedin.com/in/younes-khadir
+            </a>  
+          </p>
+          <br>
+          <p style="color:white; font-size:16px;">
+            <strong style="color:#FFDB70;">Location:</strong><br>
+            Oran, Algeria
+          </p>
+        
+        </section>
+        
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
